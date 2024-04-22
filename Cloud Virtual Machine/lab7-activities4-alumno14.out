@@ -1,0 +1,77 @@
+canIpForward: false
+cpuPlatform: Intel Broadwell
+creationTimestamp: '2023-12-27T01:40:09.312-08:00'
+deletionProtection: false
+disks:
+- architecture: X86_64
+  autoDelete: true
+  boot: true
+  deviceName: persistent-disk-0
+  diskSizeGb: '10'
+  guestOsFeatures:
+  - type: UEFI_COMPATIBLE
+  - type: VIRTIO_SCSI_MULTIQUEUE
+  - type: GVNIC
+  - type: SEV_CAPABLE
+  index: 0
+  interface: SCSI
+  kind: compute#attachedDisk
+  licenses:
+  - https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-11-bullseye
+  mode: READ_WRITE
+  source: https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-03-403a0a674bd6/zones/us-east4-c/disks/fastapi
+  type: PERSISTENT
+fingerprint: HTd2aEYH59c=
+id: '4778193416777780761'
+kind: compute#instance
+labelFingerprint: 42WmSpB8rSM=
+lastStartTimestamp: '2023-12-27T01:40:21.108-08:00'
+machineType: https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-03-403a0a674bd6/zones/us-east4-c/machineTypes/e2-medium
+metadata:
+  fingerprint: MnzjvhOl51s=
+  kind: compute#metadata
+name: fastapi
+networkInterfaces:
+- accessConfigs:
+  - kind: compute#accessConfig
+    name: external-nat
+    natIP: 35.199.16.63
+    networkTier: PREMIUM
+    type: ONE_TO_ONE_NAT
+  fingerprint: 7jVtX35AT2U=
+  kind: compute#networkInterface
+  name: nic0
+  network: https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-03-403a0a674bd6/global/networks/default
+  networkIP: 10.150.0.2
+  stackType: IPV4_ONLY
+  subnetwork: https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-03-403a0a674bd6/regions/us-east4/subnetworks/default
+scheduling:
+  automaticRestart: true
+  onHostMaintenance: MIGRATE
+  preemptible: false
+  provisioningModel: STANDARD
+selfLink: https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-03-403a0a674bd6/zones/us-east4-c/instances/fastapi
+serviceAccounts:
+- email: 35997835470-compute@developer.gserviceaccount.com
+  scopes:
+  - https://www.googleapis.com/auth/devstorage.read_only
+  - https://www.googleapis.com/auth/logging.write
+  - https://www.googleapis.com/auth/monitoring.write
+  - https://www.googleapis.com/auth/pubsub
+  - https://www.googleapis.com/auth/service.management.readonly
+  - https://www.googleapis.com/auth/servicecontrol
+  - https://www.googleapis.com/auth/trace.append
+shieldedInstanceConfig:
+  enableIntegrityMonitoring: true
+  enableSecureBoot: false
+  enableVtpm: true
+shieldedInstanceIntegrityPolicy:
+  updateAutoLearnPolicy: true
+startRestricted: false
+status: RUNNING
+tags:
+  fingerprint: 6smc4R4d39I=
+  items:
+  - http-server
+  - https-server
+zone: https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-03-403a0a674bd6/zones/us-east4-c
