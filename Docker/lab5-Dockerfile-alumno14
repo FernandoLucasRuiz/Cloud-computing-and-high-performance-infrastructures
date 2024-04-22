@@ -1,0 +1,14 @@
+# Utilizamos la imagen base de Python 3.11-slim
+FROM python:3.11-slim
+
+# Copiamos el pi.ipynb al directorio /app en la imagen de python
+COPY pi.ipynb /app/pi.ipynb
+
+# Instalamos los paquetes necesarios 
+RUN pip install jupyter numpy numba
+
+# Establecemos el directorio de trabajo nuevo para ejecutar pi.ipynb
+WORKDIR /app
+
+# Comando por defecto para ejecutar el notebook con ipython
+CMD ["ipython", "/app/pi.ipynb", "100000"]

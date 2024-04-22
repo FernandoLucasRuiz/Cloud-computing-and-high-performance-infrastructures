@@ -1,0 +1,5 @@
+REPOSITORY                      TAG         IMAGE ID       CREATED          SIZE
+fernandolucasruiz/lab5-docker   v1          c66a1bc879d8   39 seconds ago   986MB
+ubuntu                          latest      da935f064913   2 weeks ago      69.3MB
+python                          3.11-slim   641b280c5e6e   3 weeks ago      156MB
+hello-world                     latest      ee301c921b8a   7 months ago     9.14kB
