@@ -1,0 +1,176 @@
+Hostname en ibsen
+ibsen
+
+hostname en el contenedor my-python.sif de Singularity
+ibsen
+
+cat /etc/os-release en ibsen
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+
+cat /etc/os-release en el contenedor my-python.sif de Singularity
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+pwd en ibsen
+/home/alumno14/lab6-singularity/singularity
+
+pwd en el contenedor my-python.sif de Singularity
+/home/alumno14/lab6-singularity/singularity
+
+ls -l /home en ibsen
+total 144
+drwx------.  4 acarmona   acarmona   4096 oct 19 14:50 acarmona
+drwx------.  6 alejandro  alejandro  4096 ene 16  2023 alejandro
+drwxr-xr-x. 14 alumno01   alumno01   4096 dic 27 11:02 alumno01
+drwxr-xr-x.  3 alumno02   alumno02    215 dic 22 16:28 alumno02
+drwxr-xr-x.  6 alumno03   alumno03    272 dic 22 10:04 alumno03
+drwxr-xr-x. 18 alumno04   alumno04   4096 dic 27 10:36 alumno04
+drwxr-xr-x. 10 alumno05   alumno05   4096 dic 27 12:27 alumno05
+drwxr-xr-x.  2 alumno06   alumno06    169 dic  7 16:05 alumno06
+drwxr-xr-x.  9 alumno07   alumno07   4096 dic 26 21:52 alumno07
+drwxr-xr-x.  7 alumno08   alumno08   4096 dic 27 12:43 alumno08
+drwxr-xr-x.  2 alumno09   alumno09     62 dic  7 15:50 alumno09
+drwxr-xr-x.  6 alumno10   alumno10   4096 dic 27 12:13 alumno10
+drwxr-xr-x.  2 alumno11   alumno11     62 dic  7 15:50 alumno11
+drwxr-xr-x. 14 alumno12   alumno12   4096 dic 26 18:22 alumno12
+drwxr-xr-x.  2 alumno13   alumno13     62 dic  7 15:50 alumno13
+drwx------. 27 alumno14   alumno14   4096 dic 27 12:16 alumno14
+drwxr-xr-x. 11 alumno15   alumno15   4096 dic 27 12:20 alumno15
+drwxr-xr-x.  2 alumno16   alumno16     62 dic  7 15:50 alumno16
+drwxr-xr-x.  2 alumno17   alumno17     62 dic  7 15:50 alumno17
+drwxr-xr-x.  2 alumno18   alumno18     62 dic  7 15:50 alumno18
+drwxr-xr-x.  2 alumno19   alumno19     62 dic  7 15:50 alumno19
+drwxr-xr-x.  2 alumno20   alumno20    201 dic 20 16:03 alumno20
+drwxr-xr-x.  2 alumno21   alumno21     62 dic  7 15:50 alumno21
+drwxr-xr-x.  5 alumno22   alumno22   4096 dic 22 16:03 alumno22
+drwxr-xr-x.  4 alumno23   alumno23    225 dic 27 10:33 alumno23
+drwxr-xr-x. 19 alumno24   alumno24   4096 dic 26 12:26 alumno24
+drwxr-xr-x.  9 alumno25   alumno25   4096 dic 26 10:57 alumno25
+drwxr-xr-x.  2 alumno26   alumno26     62 dic  7 15:50 alumno26
+drwxr-xr-x.  2 alumno27   alumno27     62 dic  7 15:50 alumno27
+drwxr-xr-x.  2 alumno28   alumno28     62 dic  7 15:50 alumno28
+drwxr-xr-x.  4 alumno29   alumno29    234 dic 27 10:30 alumno29
+drwxr-xr-x. 12 alumno30   alumno30   4096 dic 27 12:25 alumno30
+drwxr-xr-x.  8 alumno31   alumno31   4096 dic 27 11:11 alumno31
+drwxr-xr-x.  2 alumno32   alumno32     62 dic  7 15:50 alumno32
+drwxr-xr-x.  2 alumno33   alumno33     62 dic  7 15:50 alumno33
+drwx------. 26 alumno34   alumno34   4096 dic  7 13:57 alumno34
+drwxr-xr-x.  2 alumno35   alumno35     62 dic  7 15:50 alumno35
+drwxr-xr-x.  2 alumno36   alumno36    182 dic  7 16:30 alumno36
+drwx------.  6 aorenes    aorenes     269 oct 13 12:04 aorenes
+drwx------.  2 asaura     asaura      132 feb  9  2023 asaura
+drwx------.  3 biagio     biagio      147 sep 21  2020 biagio
+drwx------. 11 borja      borja      4096 oct  3 20:38 borja
+drwxr-xr-x.  4 carlos     carlos      254 may  9  2023 carlos
+drwx------. 22 daniel     daniel     4096 dic 20 09:14 daniel
+drwx------.  7 druiz      druiz       273 feb 10  2022 druiz
+drwx------. 44 fguil      fguil      8192 dic 22 16:24 fguil
+drwx------.  7 fjguillen  fjguillen   262 jun  1  2023 fjguillen
+drwx------. 10 ifernandez ifernandez 4096 dic  7 14:46 ifernandez
+drwx------.  2 jabenza    jabenza     194 jun 20  2023 jabenza
+drwx------.  6 jaime      jaime       275 oct 22 22:38 jaime
+drwxr-xr-x. 16 jesus      jesus      4096 feb 15  2023 jesus
+drwx------. 10 jesusg     jesusg     4096 dic 17 21:53 jesusg
+drwx------. 19 jhidalgo   jhidalgo   4096 jun 25  2021 jhidalgo
+drwx------. 30 jmgarcia   jmgarcia   4096 dic 27 12:18 jmgarcia
+drwx------.  3 josemaria  josemaria   232 ene 20  2023 josemaria
+drwx------. 12 marcos     marcos     4096 may 28  2023 marcos
+drwx------.  2 medicos    medicos     127 jul 14 12:30 medicos
+lrwxrwxrwx.  1 root       root         18 jul 30  2021 modules -> /nas/hdd-0/modules
+drwx------. 88 pablo      pablo      8192 dic 24 11:08 pablo
+drwxr-xr-x. 12 pilar      pilar      4096 dic 12 12:42 pilar
+drwx------.  6 raul       raul        252 jun 19  2023 raul
+drwx------. 17 rgarcia    rgarcia    4096 dic  7 14:01 rgarcia
+drwx------.  6 salvador   salvador    266 dic  7 01:35 salvador
+drwx------.  6 saul       saul       4096 dic  1  2022 saul
+drwx------.  5 vicente    vicente     226 ago 21  2022 vicente
+
+ls -l /home en el contenedor my-python.sif de Singularity
+total 4
+drwx------. 27 alumno14 alumno14 4096 Dec 27 12:16 alumno14
+
+python --version en ibsen
+Python 3.7.7 :: Intel(R) Corporation
+
+python --version en el contenedor my-python.sif de Singularity
+Python 3.11.7
+
+Ejecutando notebook pi.ipynb en ibsen
+[22;0t]0;IPython: lab6-singularity/singularity
+ 	 Computing pi in serial: 
+
+	 For 100000 trials, pi = 3.144040
+
+47.9 ms ± 799 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
+ 	 Computing pi in serial with numpy w/o arrays: 
+
+	 For 100000 trials, pi = 3.149920
+
+58.3 ms ± 285 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
+ 	 Computing pi in serial with numpy w/ arrays: 
+
+	 For 100000 trials, pi = 3.140600
+
+2.12 ms ± 4.41 µs per loop (mean ± std. dev. of 3 runs, 100 loops each)
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+[0;32m~/lab6-singularity/source/pi.ipynb[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0;32mfrom[0m [0mnumba[0m [0;32mimport[0m [0mnjit[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0;34m[0m[0m
+[1;32m      3[0m [0;34m@[0m[0mnjit[0m[0;34m([0m[0mfastmath[0m[0;34m=[0m[0;32mTrue[0m[0;34m,[0m [0mcache[0m[0;34m=[0m[0;32mTrue[0m[0;34m,[0m [0mnogil[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;32mdef[0m [0mcalc_pi_numba[0m[0;34m([0m[0mN[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      5[0m     [0mM[0m [0;34m=[0m [0;36m0[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mModuleNotFoundError[0m: No module named 'numba'
+
+Ejecutando notebook pi.ipynb en el contenedor my-python.sif de Singularity
+
+ 	 Computing pi in serial: 
+
+	 For 10000000 trials, pi = 3.141744
+
+4.15 s ± 2.94 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/o arrays: 
+
+	 For 10000000 trials, pi = 3.141201
+
+7.64 s ± 18.2 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/ arrays: 
+
+	 For 10000000 trials, pi = 3.141759
+
+175 ms ± 1.46 ms per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
+ 	 Computing pi with numba: 
+
+	 For 10000000 trials, pi = 3.142009
+
+67.3 ms ± 127 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+
